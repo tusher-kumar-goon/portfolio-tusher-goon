@@ -18,6 +18,7 @@ a {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	
 }
 img {
 	height: 100%;
@@ -200,7 +201,8 @@ p {
 
 /* Hero Section */
 #hero {
-	background-image: url(./img/hero-bg.png);
+	/* background-image: url(./img/hero-bg.png); */
+	background-color: #888;;
 	background-size: cover;
 	background-position: top center;
 	position: relative;
@@ -222,6 +224,7 @@ p {
 	margin: 0 auto;
 	padding: 0 50px;
 	justify-content: flex-start;
+	
 }
 #hero h1 {
 	display: block;
@@ -291,12 +294,16 @@ p {
 	flex-direction: column;
 	padding: 30px;
 	border-radius: 10px;
-	background-image: url(./img/img-1.png);
+	/* background-image: url(./img/img-1.png); */
+	background-color:crimson;
 	background-size: cover;
 	margin: 10px 5%;
 	position: relative;
 	z-index: 1;
 	overflow: hidden;
+}
+.service-item:hover{
+	background-image: linear-gradient(60deg, rgb(36, 22, 236) 0%, #08d2ec 100%);
 }
 #services .service-item::after {
 	content: '';
@@ -305,7 +312,7 @@ p {
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	background-image: linear-gradient(60deg, crimson 0%, #0f0303 100%);
 	opacity: 0.9;
 	z-index: -1;
 }
@@ -317,7 +324,7 @@ p {
 #services .service-item h2 {
 	font-size: 2rem;
 	color: white;
-	margin-bottom: 10px;
+	margin-bottom: 2px;
 	text-transform: uppercase;
 }
 #services .service-item p {
