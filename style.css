@@ -930,3 +930,20 @@ textarea {
 	  padding: 1.5rem;
 	}
   }
+
+  .details-btn{
+	 margin-top: 10px;
+		color: white;
+		text-decoration: none;
+		text-transform: uppercase;
+		background-color: #07013a;
+		padding: 5px 30px ;
+	  
+  }
+  .text{
+	  text-align: center;
+	  font-family: 900;
+	  margin-top: 100px;
+	  margin-bottom: 100px;
+	  color: purple;
+  }
